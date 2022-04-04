@@ -52,7 +52,7 @@ var quizQuestions = [{
 // Other global variables
 var finalQuestionIndex = quizQuestions.length;
 var currentQuestionIndex = 0;
-var timeLeft = 76;
+var timeLeft = 75;
 var timerInterval;
 var score = 0;
 var correct;
@@ -176,7 +176,7 @@ function checkAnswer(answer){
 
     if (answer === correct && currentQuestionIndex !== finalQuestionIndex){
         score++;
-        alert("That Is Correct!");
+        alert("Correct");
         currentQuestionIndex++;
         generateQuizQuestion();
         //display in the results div that the answer is correct.

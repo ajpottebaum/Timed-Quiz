@@ -35,24 +35,18 @@
         font-family: sans-serif;
         background-color: #f70000;
         border-radius: 10px;
-        border: 5px #473434;
+        border:double dotted 10px #473434;
         color: #ffffff;
         text-align: center;
         font-size: 15px;
         padding: 20px;
         margin: 20px;
       }
-    
-      button:hover{
-          box-shadow: 4px 3px 6px #bd4444;
-      }
-        
+
     #timer{
-        font-family: sans-serif;
         background-color: #bd4444;
         color: #eeeeee;
-        font-size: x-large;
-        text-shadow: .5px .5px black;
+        font-size: 15px;
         text-align: center;
     }
     #quiz {
@@ -82,7 +76,7 @@
         border-color: silver;
         border-bottom-style: groove;
         padding-bottom: .3rem;
-        background: lightsteelblue;
+        background: rgb(236, 4, 4);
     }
     
     #highscore-header{
