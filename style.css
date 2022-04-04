@@ -1,5 +1,5 @@
 :root{
-    background-color: rgb(224, 233, 253);
+    background-color: rgb(97, 97, 97);
     }
     
     li{
@@ -8,7 +8,10 @@
         text-shadow: 1.5px 1px 3px black;
         list-style-type: none;
     }
-    
+    h2{
+        text-align: center;
+        color: white
+    }
     p{
         color: black;
         text-shadow: .5px .5px white;
@@ -17,51 +20,36 @@
         font-family: sans-serif;
     
     }
-    h2{
-        font-family: sans-serif;
-        margin-top: -.5rem;
-    }
     input{
         text-align: center;
     }
     
     .container {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 80rem;
-        margin: 0 auto;
+      display: flex;
+      justify-content: center ;
       }
     
       button {
-        display: inline-block;
+        display: flex;
+        justify-content: space-around;
         font-family: sans-serif;
-        background-color: #5e6df1;
+        background-color: #f70000;
         border-radius: 10px;
-        border: 3px double #cccccc;
-        color: #eeeeee;
+        border: 5px #473434;
+        color: #ffffff;
         text-align: center;
         font-size: 15px;
         padding: 20px;
-        width: 200px;
-        margin-top: 3px;
+        margin: 20px;
       }
     
       button:hover{
-          box-shadow: 4px 3px 6px #4450bd;
+          box-shadow: 4px 3px 6px #bd4444;
       }
-    
-    #startpage{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
+        
     #timer{
         font-family: sans-serif;
-        background-color: #5a69f0;
+        background-color: #bd4444;
         color: #eeeeee;
         font-size: x-large;
         text-shadow: .5px .5px black;
@@ -102,7 +90,7 @@
         justify-content: space-around;
         border-bottom-style: outset;
         margin-bottom: .5rem;
-        background-color: #5e6df1;
+        background-color: #616161;
         color: #eeeeee;
         font-family: sans-serif;
     }
@@ -140,7 +128,6 @@
         font-family: sans-serif;
         font-weight: bold;
     }
-    
     #endGameBtns{
         display: none;
     }
