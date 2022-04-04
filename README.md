@@ -38,8 +38,8 @@ Room for improvement:
 
 ## Acknowledgements
 -Project in Module 5 for University of Minnesota Coding Bootcamp 2022
-[Readme Reference](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
-[Adapted Code From] https://github.com/leolopez10
+- [Readme Reference](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+- [Adapted Code From] https://github.com/leolopez10
 
 ## Contact
 Created by [@ajpottebaum](git@github.com:ajpottebaum/ajpottebaum.git) - feel free to contact me!
