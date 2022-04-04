@@ -19,9 +19,9 @@
 - Javascript
 
 ## Features
--Highscore list
--Total score changes with incorrect and correct answers
--Timer deducts 10 seconds for each question answered incorrectly
+- Highscore list
+- Total score changes with incorrect and correct answers
+- Timer deducts 10 seconds for each question answered incorrectly
 
 ## Screenshots
 ![Screenshot](/timed-quiz.png)
