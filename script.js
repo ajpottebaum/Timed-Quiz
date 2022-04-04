@@ -56,6 +56,7 @@ var timeLeft = 75;
 var timerInterval;
 var score = 0;
 var correct;
+var incorrect;
 
 // This function cycles through the object array containing the quiz questions to generate the questions and answers.
 function generateQuizQuestion(){
@@ -165,7 +166,7 @@ function replayQuiz(){
     highscoreContainer.style.display = "none";
     gameoverDiv.style.display = "none";
     startQuizDiv.style.display = "flex";
-    timeLeft = 76;
+    timeLeft = 75;
     score = 0;
     currentQuestionIndex = 0;
 }
@@ -182,6 +183,7 @@ function checkAnswer(answer){
         //display in the results div that the answer is correct.
     }else if (answer !== correct && currentQuestionIndex !== finalQuestionIndex){
         alert("That Is Incorrect.")
+        timeLeft = (timeLeft-10);
         currentQuestionIndex++;
         generateQuizQuestion();
         //display in the results div that the answer is wrong.
